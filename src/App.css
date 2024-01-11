@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-btns .active{
+  border: 1px solid black;
+}
+.nav-btns button:not(.active) span{
+  background-color: gray;
+}
